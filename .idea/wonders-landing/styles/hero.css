@@ -1,0 +1,224 @@
+.hero {
+    display: flex;
+    gap: 20px;
+}
+
+.forms, .heroImage {
+    flex: 1;
+    padding: 1rem 5rem;
+}
+.heroImage {
+    display: flex;
+    justify-content: center;
+    margin-top: 79px;
+    margin-right: 50px;
+    max-width: 690px;
+    height: 764px;
+}
+
+
+.radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13rem;
+    padding-right: 25px;
+    padding-left: 15px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: white;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    align-items: center;
+}
+.radio-button {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    user-select: none;
+    font-size: 14px;
+    color: #333;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 5px;
+    white-space: nowrap;
+}
+.radio-button input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #90A3BF80;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.radio-button input[type="radio"]::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 6px;
+    height: 6px;
+    background: white;
+    border-radius: 50%;
+    transition: transform 0.2s ease;
+}
+.radio-button input[type="radio"]:checked::before {
+    transform: translate(-50%, -50%) scale(1);
+}
+.radio-button input[type="radio"]:checked {
+    background-color: #1a73e8;
+}
+.passenger-counter {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.counter-radio {
+    display: none;
+}
+
+.counter-btn {
+    border: none;
+    padding: 4px 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #0578FF;
+    transition: 0.2s;
+    user-select: none;
+}
+
+.counter-value {
+    min-width: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+.symbol {
+    font-size: 28px;
+    color: grey;
+    font-weight: 190 !important;
+    cursor: pointer;
+    transition: color 0.2s;
+    user-select: none;
+}
+
+input[type="radio"]:checked + .symbol {
+    color: #0578FF;
+}
+
+
+.twoInputsOneLine {
+    display: flex;
+    gap: 30px;
+    padding: 27px 0px;
+}
+
+.inputGroup {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.inputGroup input {
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 1px solid white;
+    height: 53px;
+    font-size: 14px;
+}
+.emptyLabel {
+    visibility: hidden;
+}
+
+.inputIconWrapper {
+    position: relative;
+    width: 100%;
+}
+
+.inputIconWrapper input {
+    width: 100%;
+    padding-left: 40px;
+    height: 53px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #5E6E89;
+    background-color: white;
+}
+
+.inputIconWrapper input::placeholder {
+    color: #90A3BF;
+}
+.dateInputWrapper {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    height: 53px;
+    padding: 0px 16px;
+    gap: 10px;
+}
+
+.dateInputWrapper i {
+    font-size: 16px;
+    color: #90A3BF;
+    margin-right: 10px;
+}
+
+.dateInputWrapper input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #5E6E89;
+    background: transparent;
+    flex: 1;
+    height: 100%;
+    line-height: 53px;
+    padding: 0;
+    margin: 0;
+}
+
+.dateInputWrapper input::placeholder {
+    color: #90A3BF;
+}
+
+.calendarIcon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    background-image: src('../wonders-landing/assets/images/CalendarIcon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none;
+}
+
+.inputIconWrapper input {
+    padding-left: 40px;
+}
+.searchButton {
+    width: 100%;
+    height: 62px;
+    color: white;
+    background-color: #0578FF;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    cursor: pointer;
+}
