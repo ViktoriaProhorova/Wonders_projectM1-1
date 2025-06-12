@@ -1,0 +1,51 @@
+footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 472px;
+    background-color: #0578FF;
+}
+.logoTextWhite {
+    color: white;
+    font-size: 34px;
+    line-height: 51px;
+}
+.footerLogo {
+    grid-area: 2 / 1 / 3 / 2;
+    margin-left: 60px;
+}
+
+.footerCopyright {
+    grid-area: 5 / 1 / 6 / 2;
+    margin-left: 60px;
+    color: white;
+    font-size: 0.7em;
+}
+
+.aboutLinks {
+    grid-area: 2 / 3 / 5 / 4;
+
+}
+
+.communityLinks {
+    grid-area: 2 / 4 / 5 / 5;
+}
+
+.socialsLinks {
+    grid-area: 2 / 5 / 5 / 6;
+}
+.aboutLinks, .communityLinks, .socialsLinks {
+    color: white;
+}
+
+.footerLinksHeader {
+    font-size: 1.2em;
+    padding-bottom: 15px;
+}
+
+.aboutLinks a, .communityLinks a, .socialsLinks a {
+    color: white;
+    text-decoration: none;
+}

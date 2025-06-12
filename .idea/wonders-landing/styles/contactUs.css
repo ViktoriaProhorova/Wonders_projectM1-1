@@ -1,0 +1,43 @@
+.contactUs {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #0578FF;
+    height: 404px;
+}
+
+.contactUs h1 {
+    margin-top: 90px;
+    margin-bottom: 0;
+}
+
+.contact-us {
+    position: relative;
+    width: 36%;
+    height: 397px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 3;
+    margin-top: -150px;
+    margin-bottom: 150px;
+}
+
+.emailNumber {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+}
+.address {
+    font-size: 0.8em;
+}
+
+
+
+.whiteLine {
+    color: white;
+    margin: 0;
+    border: 1px solid cornflowerblue;
+}

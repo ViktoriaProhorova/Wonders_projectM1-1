@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+    height: 116px;
+}
+.header-nav {
+    display: flex;
+    gap: 11rem;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: #222;
+    font-size: 20px;
+    line-height: 27px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+}
+.logoText {
+    font-size: 34px;
+    line-height: 51px;
+}

@@ -1,0 +1,35 @@
+.FAQs {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 300px;
+    margin-top: 50px;
+}
+
+.accordion summary, div {
+    font-size: 1rem;
+    line-height: 22.4px;
+}
+.accordion summary {
+    padding-bottom: 19px;
+    padding-top: 12px;
+}
+
+.accordion div {
+    padding-bottom: 12px;
+}
+
+
+/*.accordion summary::-webkit-details-marker {*/
+/*    display: none;*/
+/*}*/
+
+/*.accordion summary .icon {*/
+/*    font-size: 20px;*/
+/*    font-weight: bold;*/
+/*    transition: transform 0.3s ease;*/
+/*}*/
+
+/*.accordion details[open] summary .icon {*/
+/*    transform: rotate(45deg);*/
+/*}*/
