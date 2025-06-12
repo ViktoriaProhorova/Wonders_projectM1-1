@@ -24,3 +24,26 @@
     line-height: 30px;
     margin: 5px;
 }
+
+
+@media (max-width: 767px) {
+    .statistics {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 в ряд */
+        grid-template-rows: auto;
+        gap: 20px;
+        height: auto;
+        padding: 20px;
+        margin-top: 140px;
+    }
+    .digitsStatistics {
+        font-size: 40px;
+        line-height: 60px;
+        margin-bottom: 0;
+    }
+    .textStatistics {
+        font-size: 16px;
+        line-height: 24px;
+        margin: 5px;
+    }
+}

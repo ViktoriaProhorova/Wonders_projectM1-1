@@ -1,9 +1,13 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
+    overflow-x: hidden;
 }
 
 body {
@@ -28,4 +32,18 @@ h1 {
 h6 {
     font-size: 16px;
     line-height: 24px;
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+    h6 {
+        font-size: 11px;
+        line-height: 16px;
+    }
+    body {
+        background-attachment: scroll;
+    }
 }

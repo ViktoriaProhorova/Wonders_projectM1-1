@@ -2,8 +2,7 @@
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    margin: 300px;
-    margin-top: 50px;
+    margin: 50px 300px 300px;
 }
 
 .accordion summary, div {
@@ -33,3 +32,10 @@
 /*.accordion details[open] summary .icon {*/
 /*    transform: rotate(45deg);*/
 /*}*/
+
+
+@media (max-width: 767px) {
+    .FAQs {
+        margin: 40px 16px 180px;
+    }
+}

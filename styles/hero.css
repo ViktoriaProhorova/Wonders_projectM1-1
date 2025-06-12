@@ -222,3 +222,36 @@ input[type="radio"]:checked + .symbol {
     line-height: 30px;
     cursor: pointer;
 }
+
+
+@media (max-width: 767px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+    }
+    .heroImage {
+        display: none;
+    }
+    .forms {
+        padding: 1rem 1rem;
+    }
+    .radio-group {
+        gap: 1rem;
+
+    }
+    .twoInputsOneLine {
+        display: flex;
+        flex-direction: column;
+        /*gap: 30px;*/
+        padding: 27px 0;
+    }
+    .emptyLabel {
+        display: none;
+    }
+    #pickUpLuckyDay {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+        gap: 5px;
+    }
+}

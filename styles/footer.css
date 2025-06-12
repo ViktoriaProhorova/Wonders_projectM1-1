@@ -49,3 +49,38 @@ footer {
     color: white;
     text-decoration: none;
 }
+
+
+@media (max-width: 767px) {
+    footer {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        height: 700px;
+        padding-left: 19px;
+    }
+    .footerLogo {
+        grid-area: 1 / 1 / 2 / 3;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    .footerCopyright {
+        grid-area: 4 / 1 / 5 / 3;
+        padding-top: 25px;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    .aboutLinks {
+        grid-area: 2 / 1 / 3 / 2;
+
+    }
+
+    .communityLinks {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+    .socialsLinks {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+}

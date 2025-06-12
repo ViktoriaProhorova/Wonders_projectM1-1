@@ -32,3 +32,42 @@
     display: block;
     border-radius: 15px;
 }
+
+
+@media (max-width: 767px) {
+    .glimpsesOfGlory {
+        margin-top: 60px;
+        margin-bottom: 60px;
+        padding: 1rem;
+    }
+
+    .photos {
+        display: flex; /* вместо grid */
+        flex-direction: column;
+        gap: 16px;
+        max-height: none;
+    }
+
+    .photo1,
+    .photo2,
+    .photo3,
+    .photo4,
+    .photo5 {
+        all: unset;
+        display: block;
+    }
+
+    .photos > div {
+        width: 100%;
+        height: auto;
+    }
+
+    .photos img {
+        width: 100%;
+        height: auto;
+        /*aspect-ratio: 16 / 9;*/
+        object-fit: cover;
+        border-radius: 15px;
+        display: block;
+    }
+}
