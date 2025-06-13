@@ -29,14 +29,14 @@
     border-radius: 8px;
     background-color: white;
     font-family: Inter, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 .radio-button {
     position: relative;
     padding-left: 28px;
     cursor: pointer;
     user-select: none;
-    font-size: 14px;
+    font-size: 16px;
     color: #333;
     display: flex;
     align-items: flex-start;
@@ -104,7 +104,7 @@
 .counter-value {
     min-width: 20px;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
 }
 .symbol {
     font-size: 28px;
@@ -138,7 +138,7 @@ input[type="radio"]:checked + .symbol {
     border-radius: 10px;
     border: 1px solid white;
     height: 53px;
-    font-size: 14px;
+    font-size: 16px;
     padding-left: 15px;
 }
 
@@ -161,7 +161,7 @@ input[type="radio"]:checked + .symbol {
     height: 53px;
     border: none;
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 16px;
     color: #5E6E89;
     background-color: white;
 }
@@ -188,7 +188,7 @@ input[type="radio"]:checked + .symbol {
 .dateInputWrapper input {
     border: none;
     outline: none;
-    font-size: 14px;
+    font-size: 16px;
     color: #5E6E89;
     background: transparent;
     flex: 1;
