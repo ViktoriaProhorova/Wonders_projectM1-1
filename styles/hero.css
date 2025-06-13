@@ -14,13 +14,15 @@
     margin-right: 50px;
     max-width: 690px;
     height: 764px;
+    flex: 1;
 }
 
 
 .radio-group {
     display: flex;
     flex-wrap: wrap;
-    gap: 13rem;
+    align-items: center;
+    justify-content: space-between;
     padding-right: 25px;
     padding-left: 15px;
     border: 1px solid white;
@@ -28,7 +30,6 @@
     background-color: white;
     font-family: Inter, sans-serif;
     font-size: 14px;
-    align-items: center;
 }
 .radio-button {
     position: relative;
@@ -138,6 +139,12 @@ input[type="radio"]:checked + .symbol {
     border: 1px solid white;
     height: 53px;
     font-size: 14px;
+    padding-left: 15px;
+}
+
+.inputGroup input:focus {
+    border: 1px solid white;
+    outline: none;
 }
 .emptyLabel {
     visibility: hidden;
