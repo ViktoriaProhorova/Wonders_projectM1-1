@@ -19,23 +19,18 @@
 }
 
 
-/*.accordion summary::-webkit-details-marker {*/
-/*    display: none;*/
-/*}*/
-
-/*.accordion summary .icon {*/
-/*    font-size: 20px;*/
-/*    font-weight: bold;*/
-/*    transition: transform 0.3s ease;*/
-/*}*/
-
-/*.accordion details[open] summary .icon {*/
-/*    transform: rotate(45deg);*/
-/*}*/
-
 
 @media (max-width: 767px) {
     .FAQs {
         margin: 40px 16px 180px;
+
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .FAQs {
+        margin: 40px 16px 180px;
+        padding: 2rem 2rem 2rem 2rem;
     }
 }
