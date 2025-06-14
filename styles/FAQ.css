@@ -1,14 +1,55 @@
+/*.FAQs {*/
+/*    display: flex;*/
+/*    justify-content: flex-start;*/
+/*    flex-direction: column;*/
+/*    padding: 50px 300px 300px;*/
+/*}*/
+
+/*.accordion summary,*/
+/*.accordion div {*/
+/*    font-size: 1rem;*/
+/*    line-height: 22.4px;*/
+/*}*/
+/*.accordion summary {*/
+/*    padding-bottom: 19px;*/
+/*    padding-top: 12px;*/
+/*}*/
+
+/*.accordion div {*/
+/*    padding-bottom: 12px;*/
+/*}*/
+
+
+
+/*@media (max-width: 767px) {*/
+/*    .FAQs {*/
+/*        padding: 40px 16px 180px;*/
+
+/*    }*/
+/*}*/
+
+
+/*@media (min-width: 768px) and (max-width: 1199px) {*/
+/*    .FAQs {*/
+/*        margin: 40px 16px 180px;*/
+/*        padding: 2rem;*/
+/*    }*/
+/*}*/
+
+
 .FAQs {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    margin: 50px 300px 300px;
+    padding: 50px 300px 300px;
 }
 
-.accordion summary, div {
+.accordion summary,
+.accordion div {
     font-size: 1rem;
     line-height: 22.4px;
 }
+
 .accordion summary {
     padding-bottom: 19px;
     padding-top: 12px;
@@ -18,19 +59,15 @@
     padding-bottom: 12px;
 }
 
-
-
 @media (max-width: 767px) {
     .FAQs {
-        margin: 40px 16px 180px;
-
+        padding: 40px 16px 180px;
     }
 }
-
 
 @media (min-width: 768px) and (max-width: 1199px) {
     .FAQs {
         margin: 40px 16px 180px;
-        padding: 2rem 2rem 2rem 2rem;
+        padding: 2rem;
     }
 }

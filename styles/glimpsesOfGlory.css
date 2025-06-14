@@ -1,7 +1,7 @@
 .glimpsesOfGlory {
     margin-top: 120px;
     margin-bottom: 120px;
-    padding: 1rem 5rem;
+    padding: 1rem 3rem;
 }
 .photos {
     display: grid;
@@ -33,21 +33,11 @@
     border-radius: 15px;
 }
 
-
-@media (max-width: 767px) {
+@media (max-width: 1199px) {
     .glimpsesOfGlory {
         margin-top: 60px;
         margin-bottom: 60px;
-        padding: 1rem;
     }
-
-    .photos {
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-        max-height: none;
-    }
-
     .photo1,
     .photo2,
     .photo3,
@@ -56,56 +46,28 @@
         all: unset;
         display: block;
     }
-
     .photos > div {
         width: 100%;
         height: auto;
     }
+    .photos {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        max-height: none;
+    }
+}
 
-    .photos img {
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-        border-radius: 15px;
-        display: block;
+
+@media (max-width: 767px) {
+    .glimpsesOfGlory {
+        padding: 1rem;
     }
 }
 
 
 @media (min-width: 768px) and (max-width: 1199px) {
     .glimpsesOfGlory {
-        margin-top: 60px;
-        margin-bottom: 60px;
-        padding: 2rem 2rem 2rem 2rem;
+        padding: 2rem;
     }
-
-    .photos {
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-        max-height: none;
-    }
-
-    .photo1,
-    .photo2,
-    .photo3,
-    .photo4,
-    .photo5 {
-        all: unset;
-        display: block;
-    }
-
-    .photos > div {
-        width: 100%;
-        height: auto;
-    }
-
-    .photos img {
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-        border-radius: 15px;
-        display: block;
-    }
-
 }
