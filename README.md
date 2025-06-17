@@ -1,6 +1,7 @@
 Wonders - simple landing page for booking bus tickets.
 
 Design: https://www.figma.com/design/Qq0LN905byLasCfNboVzU2/Module-1-Wonders--Share-?node-id=0-1
+
 Link to the site: https://viktoriaprohorova.github.io/Wonders_projectM1-1/
 
 I used only HTML and CSS because the file titled "Long Technical Specification" clearly states that JavaScript should NOT be used.
