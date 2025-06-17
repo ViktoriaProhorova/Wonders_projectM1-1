@@ -227,7 +227,12 @@ input[type="radio"]:checked + .symbol {
     border-radius: 10px;
     font-size: 20px;
     line-height: 30px;
+    font-weight: bold;
     cursor: pointer;
+}
+
+.searchButton:hover {
+    filter: brightness(90%);
 }
 
 

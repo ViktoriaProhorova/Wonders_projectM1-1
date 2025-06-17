@@ -56,6 +56,39 @@ header {
 }
 
 
+.burger {
+    height: 909px;
+    background-color: #0578FF;
+    position: fixed;
+    top: 99px;
+    width: 100%;
+    transition: left 0.5s ease-in;
+}
+.burger__closed {
+    left: -100%;
+}
+.burger__opened {
+    left: 0;
+}
+.burger__container.container {
+    padding: 64px 20px;
+}
+.burger__list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+.burger__list li {
+    margin-bottom: 64px;
+}
+.burger__link {
+    font-size: 32px;
+    line-height: 27px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
 @media (max-width: 767px) {
     header {
         padding: 1rem 1rem;

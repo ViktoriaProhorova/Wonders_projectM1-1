@@ -1,6 +1,6 @@
 :root {
     --font-main: 'Inter', sans-serif;
-    --color-bg: linear-gradient(to bottom, #ffffff, #e6f0ff);
+    --color-bg: linear-gradient(#F5F5F5, #DDECFF, #F5F5F5);
 }
 
 
@@ -27,7 +27,7 @@ main {
     width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
     font-weight: 400;
 }
 h1 {
