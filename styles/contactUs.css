@@ -36,11 +36,6 @@
 
 
 
-.whiteLine {
-    color: white;
-    margin: 0;
-    border: 1px solid cornflowerblue;
-}
 
 
 @media (max-width: 767px) {
