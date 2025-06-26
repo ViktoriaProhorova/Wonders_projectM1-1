@@ -29,15 +29,12 @@ header {
     line-height: 51px;
 }
 
-.burger-menu-mobile {
+#burger-opener {
     display: none;
 }
 
+
 @media (max-width: 1199px) {
-    .burger-menu-mobile {
-        display: block;
-        justify-content: flex-end;
-    }
 
     .header-nav-desktop {
         display: none;
@@ -53,16 +50,22 @@ header {
         width: 73px;
         height: 34px;
     }
+    #burger-opener {
+        display: block;
+    }
 }
 
 
+
+
 .burger {
-    height: 909px;
+    height: 100vh;
     background-color: #0578FF;
     position: fixed;
     top: 99px;
     width: 100%;
     transition: left 0.5s ease-in;
+    z-index: 1;
 }
 .burger__closed {
     left: -100%;
@@ -101,5 +104,16 @@ header {
 @media (min-width: 768px) and (max-width: 1199px) {
     header {
         padding: 2rem 2rem;
+    }
+    .burger__list li {
+        margin-bottom: 130px;
+    }
+
+    .burger__list {
+        margin-top: 80px;
+    }
+
+    .burger__link {
+        font-size: 70px;
     }
 }

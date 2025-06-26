@@ -20,10 +20,26 @@
     <a href="#contact">Contact</a>
     <a href="#">Sign Up</a>
   </nav>
-  <div class="burger-menu-mobile">
-    <img src="assets/icons/burgerMenu.png" alt="burger menu">
-  </div>
+
+  <button id="burger-opener" class="header__burger-button">
+    <img id="burger-icon" src="assets/icons/burgerMenu.png"/>
+  </button>
+
 </header>
+
+<div id="burger" class="burger burger__closed">
+  <div class="container burger__container">
+    <nav>
+      <ul class="burger__list">
+        <li><a href="#mobileApp" class="burger__link">Mobile App</a></li>
+        <li><a href="#faq" class="burger__link">FAQs</a></li>
+        <li><a href="#contact" class="burger__link">Contact</a></li>
+        <li><a href="#" class="burger__link">Sign Up</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
 <main>
   <section class="hero">
     <form class="forms">
@@ -259,5 +275,9 @@
       </p>
     </div>
 </footer>
+
+
+<script src="scripts/burger.js"></script>
+<script src="scripts/faq.js"></script>
 </body>
 </html>
